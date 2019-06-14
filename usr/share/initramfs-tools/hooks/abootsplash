@@ -1,0 +1,8 @@
+#!/bin/sh -e
+
+. /usr/share/initramfs-tools/hook-functions
+
+# We use date, hwclock and dumpe2fs
+copy_exec /usr/bin/awk /bin
+copy_exec /usr/bin/head /bin
+copy_exec /usr/bin/bc /bin
