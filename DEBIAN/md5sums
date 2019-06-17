@@ -1,4 +1,0 @@
-d41d8cd98f00b204e9800998ecf8427e  DEBIAN/md5sums
-e8de08f686e14022149aaf2a433d2de6  DEBIAN/control
-1330d69fcb81a9a9b850211c93444f32  usr/share/initramfs-tools/scripts/init-top/abigsplash
-2845bedf606f50b90d2a62e8c2b10482  etc/modprobe.d/nobeep.conf
