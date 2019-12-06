@@ -77,17 +77,23 @@ echo "
 ${WHITE}                  www.biglinux.com.br
 
 
-   ${GREEN}Kernel ${YELLOW}$KERNEL${GREEN}
-  
-   ${GREEN}Memory ${YELLOW}$(echo "$(awk '/MemTotal/ {print $2}' /proc/meminfo)/1024" | bc) MB
-  "
-  
-echo -n "   ${GREEN}Processor${YELLOW}"
-awk -F: '/^model name/{printf $2};/^vendor_id/{printf vendor};/^$/{print ""}' /proc/cpuinfo 2>/dev/null | head -1
-echo -n "${NORMAL}"
 
-echo "
-   70 47 898"
+
+
+"
+
+if [ "$(grep "locale=pt" /proc/cmdline)" != "" ]
+then
+    /usr/games/fortune biglinux-ptbr
+else
+    /usr/games/fortune
+fi
+
+
+
+echo -n "${NORMAL}
+
+"
 
 
 
