@@ -1,9 +1,4 @@
-4137a2a15467d4582d9ecefa3801c76d  DEBIAN/control
 d41d8cd98f00b204e9800998ecf8427e  DEBIAN/md5sums
+3dcf9b16f97e18dfcad03306dfe7c159  DEBIAN/control
 2845bedf606f50b90d2a62e8c2b10482  etc/modprobe.d/nobeep.conf
-41bcb1a1e3b9b27e4d0bdfd1ce63682e  usr/bin/bigsplash
-45bdffbfaf793d392b513baf832a7b87  usr/share/games/fortunes/biglinux-ptbr
-2abbbdd1f5d202311458b2278b79490e  usr/share/games/fortunes/biglinux-ptbr.dat
-cb03c6651d597d67528be1277953b686  usr/share/initramfs-tools/hooks/abootsplash
-38c665a3575d908b479274c77cb04e08  usr/share/initramfs-tools/scripts/init-top/abigsplash
-ea46b4b020b1789b027621d197126b16  usr/share/initramfs-tools/scripts/local-bottom/zbigsplash
+d29b581a248aac3abe9274dfdb149777  usr/share/initramfs-tools/scripts/init-top/abigsplash

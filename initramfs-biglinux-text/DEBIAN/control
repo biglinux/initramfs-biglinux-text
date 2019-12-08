@@ -1,10 +1,10 @@
 Package: initramfs-biglinux-text
-Version: 1.0.0-1big4
-Depends: initramfs-tools, fortunes-min
+Version: 1.0.1-1big1
+Depends: initramfs-tools
 Architecture: all
 Maintainer: Bruno Goncalves <www.biglinux.com.br>
 Section: admin
 Priority: optional
-Installed-Size:44
-Description: Show BigLinux name in boot, using text mode and disable change init in grub, like init=/bin/bash
+Installed-Size:16
+Description: Disable change init in grub, like init=/bin/bash
 
